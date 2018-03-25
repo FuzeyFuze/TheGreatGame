@@ -23,6 +23,7 @@ public class MyPanel extends JPanel {
 	}
 	
 	public void paintComponent(Graphics gr){
-		
+		gr.drawImage(bg, 0, 0, 800, 600, null);
+		gr.drawImage(catcher, x, 465, 100, 100,null);		
 	}
 }
